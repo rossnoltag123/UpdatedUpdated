@@ -18,9 +18,4 @@ public class LevelController
     public void SetInput(InputController input){
         this.input = input;
     }
-
-
-
-
-
 }

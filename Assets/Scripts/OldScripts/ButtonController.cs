@@ -18,7 +18,7 @@ public class ButtonController : MonoBehaviour
     /// <summary>
     /// loadGamePanel - instatiates the object in place on the inspector 
     /// </summary>
-    public GameObject loadGamePanel;
+   // public GameObject loadGamePanel;
 
     /// <summary>
     /// Menu - instatiates the object in place on the inspector 
@@ -53,7 +53,7 @@ public class ButtonController : MonoBehaviour
     /// </summary>
     public void LoadGamePanel()
     {
-        loadGamePanel.SetActive(true);
+      //  loadGamePanel.SetActive(true);
     }
 
     /// <summary>
@@ -61,7 +61,7 @@ public class ButtonController : MonoBehaviour
     /// </summary>
     public void toggleOffGamePanel()
     {
-        loadGamePanel.SetActive(false);
+     //   loadGamePanel.SetActive(false);
     }
 
     /// <summary>
